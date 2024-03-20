@@ -190,12 +190,12 @@ int main()
 
         cout << "Menu:\n";
         cout << "1. Add Account\n";
-        cout << "2. Deposit\n";
-        cout << "3. Withdraw\n";
-        cout << "4. Change Balance\n";
+        cout << "2. Deposit Cash\n";
+        cout << "3. Withdraw Cash\n";
+        cout << "4. Change The Balance\n";
         cout << "5. Transfer Funds\n";
-        cout << "6. Close Account\n";
-        cout << "7. Account Information\n";
+        cout << "6. Close The Account\n";
+        cout << "7. Show Account Information\n";
         cout << "8. Display All Accounts\n";
         cout << "9. Exit\n";
         cout << "Enter your choice: ";
