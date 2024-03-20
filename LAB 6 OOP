@@ -149,14 +149,7 @@ public:
 
     void closeAccount()
     {
-        string accNum;
-        cout << "Enter account number to close: ";
-        cin >> accNum;
-
-        for (auto it = accounts.begin(); it != accounts.end(); ++it) 
-		{
-            if (it->getAccountNumber() == accNum) {
-                accounts.erase(it);
+        
                 cout << "Account closed successfully." << endl;
                 return;
             }
