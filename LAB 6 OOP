@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 #include<string>
-
 using namespace std;
 
 class Account
@@ -61,7 +60,6 @@ public:
         return balance;
     }
 };
-
 class Bank
 {
 private:
@@ -182,12 +180,14 @@ public:
 };
 
 int main()
-{
-    Bank bank;
-    int choice;
+{  
+
+      Bank bank;
+      int choice;
 
     do
     {
+
         cout << "Menu:\n";
         cout << "1. Add Account\n";
         cout << "2. Deposit\n";
@@ -203,6 +203,7 @@ int main()
 
         switch (choice)
         {
+
         case 1:
         {
             string accNum;
